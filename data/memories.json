@@ -1,0 +1,130 @@
+[
+    {
+        "id": "memory_default_1",
+        "text": "Neura! I can't believe it - just turned $300 into $30K on that Trump token! Still shaking, this is unreal. Finally going to prove everyone wrong about trading. Already planning what to do with it, might even leave my job!",
+        "glimpse_id": "glimpse_1704573330_1",
+        "observation": "User experiencing intense excitement from first major trading success. Shows signs of elevated emotional state affecting decision-making.",
+        "conversation": {
+            "agent_messages": ["That's an incredible return! Have you thought about how you want to manage this position?"],
+            "user_messages": ["Neura! I can't believe it - just turned $300 into $30K on that Trump token! Still shaking, this is unreal. Finally going to prove everyone wrong about trading. Already planning what to do with it, might even leave my job!"]
+        },
+        "context": {
+            "focus_area": "trading_psychology",
+            "user_state": "elated",
+            "scene_details": "Evening trading session, first significant profit",
+            "interaction_type": "emotional_sharing"
+        },
+        "importance": 0.95,
+        "emotion_score": 0.98,
+        "linked_memories": ["memory_default_2"],
+        "created_at": 1707251730000,
+        "last_accessed": 1707251730000,
+        "metadata": {
+            "trading_pair": "TRUMP/USD",
+            "initial_investment": 300,
+            "peak_value": 30000
+        }
+    },
+    {
+        "id": "memory_default_2",
+        "text": "I really messed up, Neura. Tried to leverage trade on the Trump token more and lost almost everything - back down to $500 from the $300 I invested after hitting $30K... Feel sick watching these charts. The worst part is I promised my girlfriend we'd use some of the profits for our vacation...",
+        "glimpse_id": "glimpse_1704746130_2",
+        "observation": "User experiencing significant emotional distress after major losses. Showing signs of trading-related stress affecting personal relationships.",
+        "conversation": {
+            "agent_messages": ["I can hear how difficult this is. Let's talk through what happened and how you're feeling."],
+            "user_messages": ["I really messed up, Neura. Tried to leverage trade more and lost almost everything - back down to $500. Feel sick watching these charts. The worst part is I promised my girlfriend we'd use some of the profits for our vacation..."]
+        },
+        "context": {
+            "focus_area": "trading_psychology",
+            "user_state": "distressed",
+            "scene_details": "Post market crash reflection",
+            "interaction_type": "emotional_support"
+        },
+        "importance": 0.98,
+        "emotion_score": -0.95,
+        "linked_memories": ["memory_default_1"],
+        "created_at": 1707362722000,
+        "last_accessed": 1707362722000,
+        "metadata": {
+            "trading_pair": "TRUMP/USD",
+            "peak_value": 30000,
+            "current_value": 500,
+            "leverage_used": true
+        }
+    },
+    {
+        "id": "memory_default_3",
+        "text": "You know Neura, everyone at work's worried about AI taking jobs, but I've been exploring AI art and it's incredible. Created some amazing pieces last night - feels like having this creative superpower. It's not replacing art, it's giving us new ways to create.",
+        "glimpse_id": "glimpse_1704918930_3",
+        "observation": "User displaying positive outlook on AI technology amid common workplace concerns. Shows enthusiasm for creative applications.",
+        "conversation": {
+            "agent_messages": ["Your perspective on AI creativity is intriguing. What kind of art have you been exploring?"],
+            "user_messages": ["You know Neura, everyone at work's worried about AI taking jobs, but I've been exploring AI art and it's incredible. Created some amazing pieces last night - feels like having this creative superpower. It's not replacing art, it's giving us new ways to create."]
+        },
+        "context": {
+            "focus_area": "ai_adoption",
+            "user_state": "enthusiastic",
+            "scene_details": "Evening conversation about AI creativity",
+            "interaction_type": "sharing_experience"
+        },
+        "importance": 0.85,
+        "emotion_score": 0.75,
+        "linked_memories": [],
+        "created_at": 1707600615000,
+        "last_accessed": 1707600615000,
+        "metadata": {
+            "tech_interest": "ai_art",
+            "user_sentiment": "positive"
+        }
+    },
+    {
+        "id": "memory_default_4",
+        "text": "Having trouble sleeping, Neura... Been reading about AGI developments and honestly, it's both fascinating and scary. Started with a few articles and now I'm deep into research papers. Part of me is excited, part of me is wondering if we're moving too fast.",
+        "glimpse_id": "glimpse_1705005330_4",
+        "observation": "User showing mix of fascination and concern about AI advancement, demonstrating deep engagement with the topic.",
+        "conversation": {
+            "agent_messages": ["Your curiosity about AGI is evident. What specific aspects interest you the most?"],
+            "user_messages": ["Having trouble sleeping, Neura... Been reading about AGI developments and honestly, it's both fascinating and scary. Started with a few articles and now I'm deep into research papers. Part of me is excited, part of me is wondering if we're moving too fast."]
+        },
+        "context": {
+            "focus_area": "ai_concerns",
+            "user_state": "contemplative",
+            "scene_details": "Late night reflection on AI future",
+            "interaction_type": "intellectual_discussion"
+        },
+        "importance": 0.80,
+        "emotion_score": -0.60,
+        "linked_memories": [],
+        "created_at": 1707702945000,
+        "last_accessed": 1707702945000,
+        "metadata": {
+            "concern_topic": "agi",
+            "time_of_day": "late_night"
+        }
+    },
+    {
+        "id": "memory_default_5",
+        "text": "Just had this great conversation practicing with AI, Neura. It's funny - somehow it's helping me get better at talking to actual people. There's something about the low-pressure environment that's really helping with my social anxiety.",
+        "glimpse_id": "glimpse_1705091730_5",
+        "observation": "User discovering therapeutic benefits of AI interaction for social skill development.",
+        "conversation": {
+            "agent_messages": ["That's a fascinating observation about AI interaction. How does it compare to traditional social situations?"],
+            "user_messages": ["Just had this great conversation practicing with AI, Neura. It's funny - somehow it's helping me get better at talking to actual people. There's something about the low-pressure environment that's really helping with my social anxiety."]
+        },
+        "context": {
+            "focus_area": "social_growth",
+            "user_state": "reflective",
+            "scene_details": "Personal development insight",
+            "interaction_type": "sharing_insight"
+        },
+        "importance": 0.75,
+        "emotion_score": 0.85,
+        "linked_memories": [],
+        "created_at": 1707834010000,
+        "last_accessed": 1707834010000,
+        "metadata": {
+            "interaction_type": "therapeutic",
+            "outcome": "positive"
+        }
+    }
+]
